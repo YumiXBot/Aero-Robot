@@ -84,3 +84,8 @@ Start with ```python3 -m AeroRobot```
  </b>
 </p>
 </details>
+
+## Contact & Support
+
+<a href="https://t.me/AerodynamicV1_Promotion"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a><br>
+<a href="https://t.me/AerodynamicV1_UPDATE"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a><br>
