@@ -33,7 +33,7 @@ This repo was just reamped to suit an Anime-centric community. All original cred
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-The Support group can be reached out to at [🇮🇳 AerodynamicV1 OFFICIAL🇮🇳](https://telegram.dog/Koyuki_Support), where you can ask for help about [AeroRobot](https://telegram.dog/Aero_Management_Bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [🇮🇳 AerodynamicV1 OFFICIAL🇮🇳](https://telegram.dog/AerodynamicV1_Promotion), where you can ask for help about [AeroRobot](https://telegram.dog/Aero_Management_Bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 <details>
 	<summary>Heroku Deploy</summary>
