@@ -1,12 +1,8 @@
 ![Aero-X](https://telegra.ph//file/9e38bddf52338e9142923.jpg)
 
-<<<<<<< HEAD
-# 𝐍𝐞𝐤𝐨 𝐑𝐨𝐛𝐨𝐭 [ BETA ]
-[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/Awesome-Prince/AeroRobot-3/?ref=repository-badge) [![Join Support!](https://img.shields.io/badge/Join%20Channel-!-red)](https://telegram.dog/Koyuki_Support) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://GitHub.com/Awesome-Prince/AeroRobot-3/graphs/contributors/)
-=======
 # Aero Robot [ BETA ]
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/Awesome-Prince/NekoRobot-3/?ref=repository-badge) [![Join Support!](https://img.shields.io/badge/Join%20Channel-!-red)](https://telegram.dog/Koyuki_Support) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://GitHub.com/Awesome-Prince/NekoRobot-3/graphs/contributors/)
->>>>>>> 61e6960c37613e17bd9dc417367eae64eb614e66
+
 
 A modular telegram Python bot running on python3 with an sqlalchemy, Redis, mongodb database.
 
