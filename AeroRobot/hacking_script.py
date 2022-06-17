@@ -5,7 +5,6 @@ I am an Anime themed advance group management bot with a lot of Sexy Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ◈ *Uptime:* `{}`
 ◈ `{}` *users, across* `{}` *chats.*
-◈ *Thanks To @Aero_Management_Bot For AeroRobot Repo*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➢ Try The Help Buttons Below To Know My Abilities ♡
 """
