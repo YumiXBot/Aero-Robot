@@ -3,7 +3,7 @@ MIT License
 
 Copyright (C) 2017-2019, Paul Larsen
 Copyright (C) 2022 Hodacka
-Copyright (c) 2021, Yūki • Black Knights Union, <https://github.com/Hodacka/AeroRobot-3>
+Copyright (c) 2021, Yūki • Black Knights Union, <https://github.com/AerodynamicV1Botz/Aero-Robot>
 
 This file is part of @Aero_Management_Bot (Telegram Bot)
 

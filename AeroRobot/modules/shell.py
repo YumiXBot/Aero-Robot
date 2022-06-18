@@ -2,7 +2,7 @@
 MIT License
 Copyright (C) 2017-2019, Paul Larsen
 Copyright (C) 2022 Awesome-Prince
-Copyright (c) 2022, Yūki • Black Knights Union, <https://github.com/Hodacka/AeroRobot-3>
+Copyright (c) 2022, Yūki • Black Knights Union, <https://github.com/AerodynamicV1Botz/Aero-Robot>
 This file is part of @Aero_Management_Bot (Telegram Bot)
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the Software), to deal
