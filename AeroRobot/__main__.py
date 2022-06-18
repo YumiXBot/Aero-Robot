@@ -2,7 +2,7 @@
 MIT License
 Copyright (C) 2017-2019, Paul Larsen
 Copyright (C) 2022 Awesome-Prince
-Copyright (c) 2022, Yūki • Black Knights Union, <https://github.com/Awesome-Prince/AeroRobot-3>
+Copyright (c) 2022, Yūki • Black Knights Union, <https://github.com/AerodynamicV1Botz/Aero-Robot>
 This file is part of @Aero_Management_Bot (Telegram Bot)
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the Software), to deal
@@ -33,7 +33,7 @@ import AeroRobot.modules.sql.users_sql as sql
 from AeroRobot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
                           OWNER_ID, PORT, SUPPORT_CHAT, TOKEN, URL, WEBHOOK,
                           SUPPORT_CHAT, dispatcher, StartTime, telethn, updater, pbot)
-# needed to load dynamic modules
+# needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
 from AeroRobot.modules import ALL_MODULES
 from AeroRobot.modules.helper_funcs.chat_status import is_user_admin
@@ -82,13 +82,13 @@ def get_readable_time(seconds: int) -> str:
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Add Aero-Robot To Your Group",
+                            text=f"Add AerodynamicX To Your Group",
                             url=f"t.me/Aero_Management_Bot?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔Chit Chat", url="https://t.me/AerodynamicV1_Promotion"),
-                       InlineKeyboardButton(text="[► Repo ◄]", url="https://GitHub.com/AerodynamicV1Botz/Aero-Robot"),
+                       InlineKeyboardButton(text="❔Chit Chat", url="https://t.me/Besties_XD"),
+                       InlineKeyboardButton(text="[► Repo ◄]", url="https://github.com/AerodynamicV1Botz/Aero-Robot"),
                      ],
                     [                  
                        InlineKeyboardButton(
@@ -129,7 +129,7 @@ HELP_IMG = "https://telegra.ph/file/ab36976c685575c4e1a5f.jpg"
 
 
 
-NEKO_IMG = (
+AERODYNAMIC_IMG = (
       "https://telegra.ph/file/6f6e36088ce15a189c400.mp4",
       "https://telegra.ph/file/0cea56d9625f265ecc9db.mp4",
       "https://telegra.ph/file/a131993b0f1e8517eacb2.mp4",
@@ -262,7 +262,7 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_animation(
-                random.choice(NEKO_IMG), caption= "<b>Yes,Darling I'm alive! Haven't sleep since</b>: <code>{}</code>".format(
+                random.choice(AERODYNAMIC_IMG), caption= "<b>I'm alive! Haven't sleep since</b>: <code>{}</code>".format(
                 uptime
  
             ),
@@ -367,14 +367,14 @@ def help_button(update, context):
         pass
 
 @run_async
-def neko_about_callback(update, context):
+def aerodynamic_about_callback(update, context):
     query = update.callback_query
     if query.data == "about_":
         query.message.edit_text(
-            text=f"[◈](https://telegra.ph/file/0719635a2edcbea04be7a.jpg) Hey {escape_markdown(first_name)} Darling,"
+            text=f"[◈](https://telegra.ph/file/0719635a2edcbea04be7a.jpg) Hey {escape_markdown(first_name)}"
               f"\n\n ➖➖➖➖➖➖➖➖➖➖➖➖➖"
-              f"\n\n Neko Info ➣ :-"
-              f"\n\n ◈ I Am An Anime Themed Advance Group Management Bot With A Lot Of Op Features."
+              f"\n\n Aerodynamic Info ➣ :-"
+              f"\n\n ◈ I Am An Anime Themed Advance Group Management Bot With A Lot Of Sexy Features."
               f"\n\n ➖➖➖➖➖➖➖➖➖➖➖➖➖"
               f"\n\n ◈ Check The Buttons To Know About Me More.*",
             parse_mode=ParseMode.MARKDOWN,
@@ -383,17 +383,17 @@ def neko_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Master", url="t.me/AerodynamicV1_OFFICIAL"
+                            text="Master", url="t.me/Awesome-Prince"
                         ),
                         InlineKeyboardButton(
                             text="Support", url="t.me/AerodynamicV1_Promotion"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Back", callback_data="neko_back")],
+                    [InlineKeyboardButton(text="Back", callback_data="aerodynamic_back")],
                 ]
             ),
         )
-    elif query.data == "neko_back":
+    elif query.data == "aerodynamic_back":
         first_name = update.effective_user.first_name
         query.message.edit_text(
                     PM_START_TEXT.format(
@@ -409,10 +409,10 @@ def neko_about_callback(update, context):
         )
 
 
-async def neko_callback_data(update, context):
+async def aerodynamic_callback_data(update, context):
     query = update.callback_query
     uptime = get_readable_time((time.time() - StartTime))
-    if query.data == "neko_":
+    if query.data == "aerodynamic_":
         query.message.edit_text(
             text="""CallBackQueriesData Here""",
             parse_mode=ParseMode.MARKDOWN,
@@ -420,12 +420,12 @@ async def neko_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="[► Back ◄]", callback_data="neko_back")
+                    InlineKeyboardButton(text="[► Back ◄]", callback_data="aerodynamic_back")
                  ]
                 ]
             ),
         )
-    elif query.data == "neko_back":
+    elif query.data == "aerodynamic_back":
         first_name = update.effective_user.first_name
         query.message.edit_text(
                     PM_START_TEXT.format(
@@ -709,7 +709,7 @@ def main():
     settings_callback_handler = CallbackQueryHandler(
         settings_button, pattern=r"stngs_")
 
-    about_callback_handler = CallbackQueryHandler(neko_about_callback, pattern=r"neko_")
+    about_callback_handler = CallbackQueryHandler(aerodynamic_about_callback, pattern=r"aerodynamic_")
     donate_handler = CommandHandler("donate", donate)
     migrate_handler = MessageHandler(Filters.status_update.migrate,
                                      migrate_chats)
