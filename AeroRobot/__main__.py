@@ -82,13 +82,13 @@ def get_readable_time(seconds: int) -> str:
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Add NekoX To Your Group",
+                            text=f"Add Aero-Robot To Your Group",
                             url=f"t.me/Aero_Management_Bot?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔Chit Chat", url="https://t.me/Besties_XD"),
-                       InlineKeyboardButton(text="[► Repo ◄]", url="https://GitHub.com/Awesome-Prince/AeroRobot-3"),
+                       InlineKeyboardButton(text="❔Chit Chat", url="https://t.me/AerodynamicV1_Promotion"),
+                       InlineKeyboardButton(text="[► Repo ◄]", url="https://GitHub.com/AerodynamicV1Botz/Aero-Robot"),
                      ],
                     [                  
                        InlineKeyboardButton(
@@ -96,7 +96,7 @@ buttons = [
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(
                              text="📢 Updates",
-                             url="https://t.me/Koyuki_Updates")
+                             url="https://t.me/AerodynamicV1_UPDATE")
                      ], 
     ]
 
@@ -139,7 +139,7 @@ NEKO_IMG = (
       )
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Click here to donate in [Telegram](https://t.me/DarlingPrince)"""
+Click here to donate in [Telegram](https://t.me/AerodynamicV1_OFFICIAL)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -273,10 +273,10 @@ def start(update: Update, context: CallbackContext):
                   [                  
                        InlineKeyboardButton(
                              text="Support🚑",
-                             url=f"https://t.me/Koyuki_Support"),
+                             url=f"https://t.me/AerodynamicV1_Promotion"),
                        InlineKeyboardButton(
                              text="Updates🛰️",
-                             url="https://t.me/Koyuki_Updates")
+                             url="https://t.me/AerodynamicV1_UPDATE")
                      ] 
                 ]
             ),
@@ -374,7 +374,7 @@ def neko_about_callback(update, context):
             text=f"[◈](https://telegra.ph/file/0719635a2edcbea04be7a.jpg) Hey {escape_markdown(first_name)} Darling,"
               f"\n\n ➖➖➖➖➖➖➖➖➖➖➖➖➖"
               f"\n\n Neko Info ➣ :-"
-              f"\n\n ◈ I Am An Anime Themed Advance Group Management Bot With A Lot Of Sexy Features."
+              f"\n\n ◈ I Am An Anime Themed Advance Group Management Bot With A Lot Of Op Features."
               f"\n\n ➖➖➖➖➖➖➖➖➖➖➖➖➖"
               f"\n\n ◈ Check The Buttons To Know About Me More.*",
             parse_mode=ParseMode.MARKDOWN,
@@ -383,10 +383,10 @@ def neko_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Master", url="t.me/Awesome-Prince"
+                            text="Master", url="t.me/AerodynamicV1_OFFICIAL"
                         ),
                         InlineKeyboardButton(
-                            text="Support", url="t.me/Koyuki_Support"
+                            text="Support", url="t.me/AerodynamicV1_Promotion"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="neko_back")],
