@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Add AerodynamicX To Your Group",
+                            text=f"Add Aerodynamics To Your Group",
                             url=f"t.me/Aero_Management_Bot?startgroup=true")
                     ],
                    [
@@ -383,7 +383,7 @@ def aerodynamic_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Master", url="t.me/Awesome-Prince"
+                            text="Master", url="t.me/AerodynamicV1_OFFICIAL"
                         ),
                         InlineKeyboardButton(
                             text="Support", url="t.me/AerodynamicV1_Promotion"
