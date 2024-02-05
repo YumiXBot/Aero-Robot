@@ -44,7 +44,7 @@ The Easiest Way to Deploy This Bot is Via Heroku.
 	
   <h1>
     <p align="center">
-        <a href="https://dashboard.heroku.com/new?template=https://github.com/AerodynamicV1Botz/Aero-Robot">
+        <a href="https://dashboard.heroku.com/new?template=https://github.com/YumiXBot/Aero-Robot">
             <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
         </a>
     </p>
